@@ -1,4 +1,8 @@
-## Hi there 👋
+- name: 'notify vercel'
+  uses: 'vercel/repository-dispatch/actions/status@v1'
+  with:
+  name: Vercel - tmjdigitals: lint
+  ## Hi there 👋
 
 <!--
 **tmjdigitals/tmjdigitals** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
